@@ -18,9 +18,16 @@ body {
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 1rem;
   background-color: var(--secondary-color);
+}
+
+header h1 {
+    color: var(--tertiary-color);
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .search {
